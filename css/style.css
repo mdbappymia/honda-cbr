@@ -1,0 +1,49 @@
+body {
+  overflow-x: hidden;
+}
+header {
+  background-color: #264653;
+}
+.bg-orange {
+  background-color: #e76f51;
+}
+.boder-orange {
+  border-color: #e76f51;
+}
+.text-orange {
+  color: #e76f51;
+}
+.collection-text::after {
+  display: inline-block;
+  content: "";
+  border-bottom: 0.1rem solid #e76f51;
+  width: 4rem;
+  margin: -1rem -1rem;
+  transform: translateX(-5rem);
+  -webkit-transform: translateX(-5rem);
+  -moz-transform: translateX(-5rem);
+  -ms-transform: translateX(-5rem);
+  -o-transform: translateX(-5rem);
+}
+.img-gray {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #000;
+}
+.extra-small {
+  font-size: 7px;
+}
+.small {
+  font-size: 13px;
+}
+.play-icon {
+  height: 20px;
+  width: 20px;
+  margin-top: -5px;
+}
+iframe {
+  height: 300px;
+}
